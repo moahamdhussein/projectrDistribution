@@ -1,4 +1,4 @@
-/*
+package methods;/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -16,8 +16,12 @@ public class Repeatedwords implements Runnable {
     HashMap<String, Integer> map = new HashMap<String, Integer>();
     Scanner txtFile;
 
-    public Repeatedwords() throws FileNotFoundException {
-        this.txtFile = new Scanner(new File("E:\\distributed\\projectrDistribution\\New Text Document.txt"));
+    public Repeatedwords()  {
+        try {
+            this.txtFile = new Scanner(new File("E:\\distributed\\projectrDistribution\\New Text Document.txt"));
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override

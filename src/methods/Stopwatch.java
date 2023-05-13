@@ -1,4 +1,6 @@
-class Stopwatch {
+package methods;
+
+public class Stopwatch {
     private final long start;
 
     public Stopwatch() {

@@ -1,3 +1,5 @@
+package methods;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -8,8 +10,12 @@ import java.util.Scanner;
 public class Shortest implements Runnable  {
      Scanner txtFile;
 
-    public Shortest() throws FileNotFoundException {
-        this.txtFile = new Scanner(new File("E:\\distributed\\projectrDistribution\\New Text Document.txt"));
+    public Shortest()  {
+        try {
+            this.txtFile = new Scanner(new File("E:\\distributed\\projectrDistribution\\New Text Document.txt"));
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 @Override
     public void run() {

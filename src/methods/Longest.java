@@ -1,3 +1,5 @@
+package methods;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -9,8 +11,12 @@ import java.util.Scanner;
 public class Longest implements Runnable  {
      Scanner txtFile;
 
-    public Longest() throws FileNotFoundException {
-        this.txtFile = new Scanner(new File("E:\\distributed\\projectrDistribution\\New Text Document.txt"));
+    public Longest() {
+        try {
+            this.txtFile = new Scanner(new File("E:\\distributed\\projectrDistribution\\New Text Document.txt"));
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 @Override
