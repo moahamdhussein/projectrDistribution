@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df9b7b1a-659b-4947-b9b8-a38b1f02305a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="df9b7b1a-659b-4947-b9b8-a38b1f02305a" name="Changes" comment="final commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Call.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/methods/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/methods/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/methods/Longest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/methods/Longest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/methods/Repeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/methods/Repeat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/methods/Repeatedwords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/methods/Repeatedwords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/methods/Shortest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/methods/Shortest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/methods/Stopwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/methods/Stopwatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/methods/Count.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/methods/Longest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/methods/Repeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/methods/Repeatedwords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/methods/Shortest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/methods/Stopwatch.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/remoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/remoteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +41,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/distributed/projectrDistribution/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/distributed/projectrDistribution/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\distributed\projectrDistribution\src" />
@@ -65,6 +63,18 @@
       <option name="presentableId" value="Default" />
       <updated>1683919592735</updated>
     </task>
+    <task id="LOCAL-00001" summary="final commit">
+      <created>1683993400345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683993400345</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
 </project>

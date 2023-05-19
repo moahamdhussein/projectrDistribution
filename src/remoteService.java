@@ -1,4 +1,4 @@
-import methods.*;
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,30 +9,6 @@ import java.util.*;
 public class remoteService extends UnicastRemoteObject implements Call {
     public remoteService() throws RemoteException {
         super();
-    }
-
-    @Override
-    public void theredsMethods(String path) throws RemoteException {
-        Repeat a1;
-        Count a2;
-        Longest a3;
-        Shortest a4;
-        Repeatedwords a5;
-        a1 = new Repeat();
-        a2 = new Count();
-        a3 = new Longest();
-        a4 = new Shortest();
-        a5 = new Repeatedwords();
-        Thread t1 = new Thread(a1);
-        Thread t2 = new Thread(a2);
-        Thread t3 = new Thread(a3);
-        Thread t4 = new Thread(a4);
-        Thread t5 = new Thread(a5);
-        t1.start();
-        t2.start();
-        t3.start();
-        t4.start();
-        t5.start();
     }
 
     @Override
@@ -68,10 +44,8 @@ public class remoteService extends UnicastRemoteObject implements Call {
         return words;
     }
 
-
-
     @Override
-    public String[][] repeat(String path) throws RemoteException {
+    public String[][] word(String path) throws RemoteException {
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         Scanner txtFile = null;
         String[][] words = new String[300][2];
